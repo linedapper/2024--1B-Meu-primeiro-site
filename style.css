@@ -1,7 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
 :root{
  --preto: #001427ff;
  --cinza-verde: #708d81ff;
  --marrom-claro: #f4d58dff;
  --vermelho: #bf0603ff;
  --vermelho-escuro: #8d0801ff;
+ --fontre-titulo:"Bebas Neue", sans-serif;
+ --fonte-texto:"Afacad Flux", sans-serif;
+}
+
+body{
+    background-color: var(--preto);
+    font-family: var(--fonte-texto);
+}
+
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--preto);
 }
