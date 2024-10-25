@@ -1,28 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 *{
     margin: 0;
     padding: 0;
 }
 :root{
- --preto: #001427ff;
- --cinza-verde: #708d81ff;
- --marrom-claro: #f4d58dff;
- --vermelho: #bf0603ff;
- --vermelho-escuro: #8d0801ff;
- --fontre-titulo:"Bebas Neue", sans-serif;
- --fonte-texto:"Afacad Flux", sans-serif;
+    --platina: #d8e2dcff;
+    --rosa-champanhe: #ffe5d9ff;
+    --rosa: #ffcad4ff;
+    --flor-de-cerejeira-rosa: #f4acb7ff;
+    --mountbatten-rosa: #9d8189ff;
+    --fonte-titulo:"Lobster", sans-serif;
+    --fonte-texto:"Nanum Gothic", sans-serif;
 }
 
 body{
-    background-color: var(--preto);
+    background-color: var(--platina);
     font-family: var(--fonte-texto);
 }
 
 
-.cabecalho{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--preto);
+.cabecalho-logo{
+    width: 10%;
+    border-radius: 100%;
+    padding:lem;
 }
+
+.cabecalho-link{
+text-decoration: none;
+color: var(--rosa-champanhe);
+font-size: 2em;
+margin-right: 1em;
+}
+
+ .cabecalho-link:hover{
+    color: var(--rosa);
+    font-size: 1.9em;
+    transition: 0.3s;
+ }  
+
+   
